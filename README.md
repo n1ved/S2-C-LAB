@@ -10,3 +10,26 @@
 
 ---
 
+## HELLO WORLD
+
+[CODE](/helloworld.c)
+
+```
+STEP 1  :   START
+STEP 2  :   WRITE "HELLO WORLD"
+STEP 3  :   STOP
+```
+---
+## SUM OF NUMBERS
+
+[CODE](/sum.c)
+
+```
+STEP 1  :   START
+STEP 2  :   READ A,B
+STEP 3  :   SUM = A+B
+STEP 4  :   WRITE SUM
+STEP 5  :   STOP
+```
+---
+
