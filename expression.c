@@ -1,7 +1,8 @@
 #include <stdio.h>
 void main(){
-	int a , b , c , d , e;
+	int a , b , c , d , r;
+	printf("Enter four numbers : ");
 	scanf("%d %d %d %d" , &a , &b , &c , &d);
-	e = (a + b) * (c - d);
-	printf("%d",e);
+	r = (a + b) * (c - d);
+	printf("Result is %d",r);
 }
