@@ -6,7 +6,13 @@
 [3. Program to print pattern](#pattern-using-loops)\
 [4. Program to Calculate Area & Circumference or a circle ](#area-and-circumference)\
 [5. Program to Calculate simple interest](#simple-interest)\
-[6. Program to evaluate Expression (A+B)*(C-D)](#evaluate-expression)
+[6. Program to evaluate Expression (A+B)*(C-D)](#evaluate-expression)\
+[7. Program to print largest of two integers ]()\
+[8. Program to print smallest of two integers ]()\
+[9. Program to check whether prime number or not ]()\
+[10. Program to check whether Armstrong number or not ]()\
+[11. Program to check whether leap year or not ]()
+
 
 ---
 
@@ -88,6 +94,7 @@ STEP 4  :   PRINT R
 STEP 5  :   STOP
 ```
 ---
+
 
 
 
