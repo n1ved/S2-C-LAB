@@ -7,9 +7,9 @@
 [4. Program to Calculate Area & Circumference or a circle ](#area-and-circumference)\
 [5. Program to Calculate simple interest](#simple-interest)\
 [6. Program to evaluate Expression (A+B)*(C-D)](#evaluate-expression)\
-[7. Program to print largest of two integers ]()\
-[8. Program to print smallest of two integers ]()\
-[9. Program to check whether prime number or not ]()\
+[7. Program to print largest of two integers ](#largest)\
+[8. Program to print smallest of two integers ](#smallest)\
+[9. Program to check whether prime number or not ](#prime)\
 [10. Program to check whether Armstrong number or not ]()\
 [11. Program to check whether leap year or not ]()
 
@@ -95,6 +95,83 @@ STEP 5  :   STOP
 ```
 ---
 
+## LARGEST
+
+[CODE](/largest.c)
+
+```
+STEP 1  :   START
+STEP 2  :   READ A , B
+STEP 3  :   IF A > B
+STEP 4  :       PRINT A
+STEP 5  :   ELSE
+STEP 6  :       PRINT B
+STEP 7  :   STOP
+```
+---
+## SMALLEST
+
+[CODE](/smallest.c)
+
+```
+STEP 1  :   START
+STEP 2  :   READ A , B
+STEP 3  :   IF A < B
+STEP 4  :       PRINT A
+STEP 5  :   ELSE
+STEP 6  :       PRINT B
+STEP 7  :   STOP
+```
+---
+
+## PRIME
+
+[CODE](/prime.c)
+
+```
+STEP 1  :   START
+STEP 2  :   READ A
+STEP 3  :   SET I = 0
+STEP 4  :   IF I>A/2 GOTO 11
+STEP 5  :   IF(A%I = 0)
+STEP 6  :       PRINT "NOT PRIME"
+STEP 7  :       GOTO 12
+STEP 8  :   ELSE
+STEP 9  :       I = I + 1
+STEP 10 :       GOTO 4
+STEP 11 :   PRINT "PRIME"
+STEP 12 :   STOP
+```
+---
+
+## ARMSTRONG
+
+[]()
+
+```
+```
+---
+
+## LEAP YEAR
+
+[CODE](/leapyear.c)
+
+```
+STEP 1  :   START
+STEP 2  :   READ A
+STEP 3  :   IF(A%100 = 0)
+STEP 4  :       IF(A%400 = 0)
+STEP 5  :           PRINT "LEAP YEAR"
+STEP 6  :       ELSE
+STEP 7  :           PRINT "NOT A LEAP YEAR"
+STEP 8  :   ELSE
+STEP 9  :       IF(A%4 = 0)
+STEP 10 :           PRINT "LEAP YEAR"
+STEP 11 :       ELSE
+STEP 12 :           PRINT "NOT A LEAP YEAR"
+STEP 13 :   STOP
+```
+---
 
 
 
