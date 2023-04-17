@@ -10,8 +10,8 @@
 [7. Program to print largest of two integers ](#largest)\
 [8. Program to print smallest of two integers ](#smallest)\
 [9. Program to check whether prime number or not ](#prime)\
-[10. Program to check whether Armstrong number or not ]()\
-[11. Program to check whether leap year or not ]()
+[10. Program to check whether Armstrong number or not ](#armstrong)\
+[11. Program to check whether leap year or not ](#leap-year)
 
 
 ---
