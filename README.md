@@ -11,8 +11,9 @@
 [8. Program to print smallest of two integers ](#smallest)\
 [9. Program to check whether prime number or not ](#prime)\
 [10. Program to check whether Armstrong number or not ](#armstrong)\
-[11. Program to check whether leap year or not ](#leap-year)
-
+[11. Program to check whether leap year or not ](#leap-year)\
+[12. Program to check weather the number is odd or even]()\
+[13. Program to check weather the number is positive or negative]()
 
 ---
 
@@ -146,9 +147,27 @@ STEP 12 :   STOP
 
 ## ARMSTRONG
 
-[]()
+[CODE](/armstrong.c)
 
 ```
+STEP 1 : START
+STEP 2 : READ A
+STEP 3 : COPY A TO B
+STEP 4 : SET DIGITS = 1 , PROD = 0
+STEP 5 : REPEAT STEPS 6 AND 7 WHILE A>=10
+STEP 6 : SET A = A/10
+STEP 7 : SET DIGITS = DIGITS + 1
+STEP 8 : COPY B TO A
+STEP 9 : SET I = 1
+STEP 10: REPEAT STEPS 11 TO 15 WHILE I<=DIGITS
+STEP 11: SET TEMP = 1 , J = 1
+STEP 12: REPEAT STEP 13 WHILE J<=DIGITS
+STEP 13: SET TEMP = TEMP * (A % 10)
+STEP 14: SET PROD = PROD + TEMP
+STEP 15: SET NUM = NUM / 10
+STEP 16: IF PROD EQUALS B PRINT "ARMSTRONG"
+STEP 17: OTHERWISE PRINT "NOT ARMSTRONG"
+STEP 18: STOP
 ```
 ---
 
@@ -173,5 +192,17 @@ STEP 13 :   STOP
 ```
 ---
 
+## ODD OR EVEN
+
+[CODE](/oddoreven.c)
+
+```
+STEP 1  :   START
+STEP 2  :   READ A
+STEP 3  :   CHECK IF A%2 = 0
+STEP 4  :   PRINT 'EVEN' IF TRUE
+STEP 5  :   ELSE PRINT 'ODD'
+STEP 6  :   STOP
+```
 
 
