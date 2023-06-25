@@ -12,8 +12,8 @@
 [9. Program to check whether prime number or not ](#prime)\
 [10. Program to check whether Armstrong number or not ](#armstrong)\
 [11. Program to check whether leap year or not ](#leap-year)\
-[12. Program to check weather the number is odd or even]()\
-[13. Program to check weather the number is positive or negative]()
+[12. Program to check weather the number is odd or even](#odd-or-even)\
+[13. Program to check weather the number is positive or negative](#p)\
 
 ---
 
@@ -204,5 +204,22 @@ STEP 4  :   PRINT 'EVEN' IF TRUE
 STEP 5  :   ELSE PRINT 'ODD'
 STEP 6  :   STOP
 ```
+---
 
+## Positive or negative
+
+[CODE](/positiveornegative.c)
+
+```
+STEP 1  :   START
+STEP 2  :   READ A
+STEP 3  :   CHECK A>0 IF TRUE GOTO 6
+STEP 4  :   CHECK A<0 IF TRUE GOTO 7
+STEP 5  :   CHECK A=0 IF TRUE GOTO 8
+STEP 6  :   PRINT POSITIVE AND GOTO 9
+STEP 7  :   PRINT NEGATIVE AND GOTO 9
+STEP 8  :   PRINT ZERO
+STEP 9  :   END
+```
+---
 
