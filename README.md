@@ -13,7 +13,7 @@
 [10. Program to check whether Armstrong number or not ](#armstrong)\
 [11. Program to check whether leap year or not ](#leap-year)\
 [12. Program to check weather the number is odd or even](#odd-or-even)\
-[13. Program to check weather the number is positive or negative](#p)\
+[13. Program to check weather the number is positive or negative](#positiveornegative)\
 
 ---
 
