@@ -11,10 +11,10 @@ void main(){
     for(int i= 0 ; i<5 ; i++){
         for(int j=0 ; j<4-i ; j++){
             if(array[j]>array[j+1]){
-                temp = array[j];
-                array[j] = array[j+1];
-                array[j+1] = temp;
-            }
+                temp = array[i];
+                array[i] = array[i+1];
+                array[i+1] = temp;
+                }
             printf("Inner-pass %d \n" , j);
         }
         printf("Pass %d \n" , i);
